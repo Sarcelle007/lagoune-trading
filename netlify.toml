@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  GD_CLIENT_ID = "388169442704-1g70914gvrngl58mfdcab0kr52130paq.apps.googleusercontent.com"
+  GD_APP_ID = "388169442704"
+  GD_API_KEY = "AIzaSyAdIlQt-4KJzWuUboVwCfGlhWIxP2NPJEM"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
